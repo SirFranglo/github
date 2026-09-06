@@ -1,0 +1,103 @@
+body {
+text-align: center;
+background-color: #f2f6fa;
+font-family: Arial, sans-serif;
+margin: 0;
+}
+
+/* Profile section */
+header {
+background-color: white;
+max-width: 600px;
+margin: 40px auto 20px;
+padding: 30px;
+border-radius: 20px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile picture */
+.img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+/* Name */
+.name {
+font-family: cursive;
+color: #333;
+margin: 10px;
+}
+
+/* Profile information */
+.profile-info {
+color: #555;
+}
+
+/* Buttons */
+.button {
+background-color: #4da6ff;
+color: white;
+border: none;
+border-radius: 30px;
+padding: 12px 20px;
+margin: 5px;
+cursor: pointer;
+font-size: 15px;
+}
+
+.button:hover {
+background-color: #267dcc;
+}
+
+/* Main section */
+main {
+background-color: white;
+max-width: 600px;
+margin: 30px auto;
+padding: 25px;
+border-radius: 20px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Writing box */
+textarea {
+width: 90%;
+height: 120px;
+padding: 15px;
+border: 2px solid #ddd;
+border-radius: 15px;
+resize: vertical;
+font-family: Arial, sans-serif;
+font-size: 16px;
+}
+
+textarea:focus {
+outline: none;
+border-color: #4da6ff;
+}
+
+/* Post button */
+.post-button {
+background-color: #4da6ff;
+color: white;
+border: none;
+border-radius: 30px;
+padding: 12px 30px;
+margin-top: 15px;
+cursor: pointer;
+font-size: 16px;
+}
+
+.post-button:hover {
+background-color: #267dcc;
+}
+
+/* Footer */
+.footer {
+background-color: #222;
+color: #aaa;
+padding: 25px;
+margin-top: 40px;
+}
